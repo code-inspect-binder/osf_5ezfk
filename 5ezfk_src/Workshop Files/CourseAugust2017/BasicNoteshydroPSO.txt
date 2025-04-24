@@ -1,0 +1,30 @@
+# Setting up Santa Lucia PSO to work with hydroPSO
+
+Steps to do for running hydroPSO
+A. Setup folders and basci files
+B. Create parameter files for hydroPSO
+C. Create main hydroPSO script
+D. Run script
+
+
+A. Setup folders and basic files
+1. Create a folder "PSO_Santa_Lucia"
+2. In this folder copy the files from the "txtinout" folder of your SWAT project
+3. Create three sub folders:
+---PSO.in
+---PSO.out
+---Scripts
+
+4. Into PSO.in copy the "parfile_goodra.txt" file
+5. Copy the file "functions/sub_extract.R" into Scripts
+6. Also copy "data/SantaLucia.RDS" into PSO.in
+7. Also copy SWATParameterFileExtensions.csv into PSO.in
+8. Copy the file "functions/parval.R" also into Scripts
+---PSO.in --- parfile_goodra.txt, SantaLucia.RDS, SWATParameterFileExtensions.csv
+---PSO.out --- empty
+---Scripts --- sub_extract.R, parval.R
+
+B. create parameterfiles
+See R script and F_settingup_hydroPSO.pdf
+- Create parfile_SantaLucia with parameters, min, max and locations in files
+

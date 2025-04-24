@@ -1,0 +1,6 @@
+Metadata_MODIS
+Metadata information for the data in the MODIS folder for the: "How do I use satellite and global reanalysis data for hydrological simulations in SWAT?" workshop which was given in Montevideo between 7 - 11 August 2017, jointly organised by the University of Sydney, IRI (the University of Columbia) and INIA, Uruguay.
+
+This folder contains two subfolders, which include the MODIS16A ET timeseries between 2000 and 2014 downloaded as subsets from http://modis.gsfc.nasa.gov/ using the package MODIStools (https://github.com/seantuck12/MODISTools). The script for downloading the data is included in the document B_RainfallRunoffCalibrationWithET.pdf for the Cotter catchment, and in ExtractMODIS_SLucia.pdf for the Santa Lucia catchment.
+
+The data are extracted based on the subbasin midpoints using the Subbasins_cotter.csv and the subbasins_SantaLucia.csv files
